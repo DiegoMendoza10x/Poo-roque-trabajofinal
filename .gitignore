@@ -1,0 +1,43 @@
+# Maven
+target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Android / Gradle
+android/.gradle/
+android/local.properties
+android/build/
+android/app/build/
+android/.idea/
+*.apk
+
+# Local database and generated data
+data/
+*.mv.db
+*.trace.db
+
+# Build outputs
+dist/
+dist-debug/
+
+# Local credentials and secrets
+.env
+.env.*
+!.env.example
+database/Coenction.txt
+database/*Coection*.txt
+**/application-local.properties
+
+# Logs and OS files
+*.log
+Thumbs.db
+.DS_Store
+
+# Deployment metadata
+.vercel/
